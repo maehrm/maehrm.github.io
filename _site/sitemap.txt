@@ -3,7 +3,6 @@ http://maehrm.github.io/archive.html
 http://maehrm.github.io/atom.xml
 http://maehrm.github.io/categories.html
 http://maehrm.github.io/index.html
-http://maehrm.github.io/index.md.bak
 http://maehrm.github.io/pages.html
 http://maehrm.github.io/rss.xml
 http://maehrm.github.io/sitemap.txt

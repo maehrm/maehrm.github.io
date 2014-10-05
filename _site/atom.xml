@@ -4,7 +4,7 @@
  <title>Mae向きな日記(GitHub Pages)</title>
  <link href="http://maehrm.github.io/" rel="self"/>
  <link href="http://maehrm.github.io"/>
- <updated>2014-10-05T12:01:13+09:00</updated>
+ <updated>2014-10-05T15:11:42+09:00</updated>
  <id>http://maehrm.github.io</id>
  <author>
    <name>Masahide Maehara</name>
@@ -13,11 +13,11 @@
 
  
  <entry>
-   <title>今日の取り組み</title>
-   <link href="http://maehrm.github.io/2014/10/05/hello-world"/>
+   <title>シンタックスハイライトなどに取り組んでみる</title>
+   <link href="http://maehrm.github.io/2014/10/05/syntax"/>
    <updated>2014-10-05T00:00:00+09:00</updated>
-   <id>http://maehrm.github.io/2014/10/05/hello-world</id>
-   <content type="html">&lt;h2 id=&quot;section&quot;&gt;シンタックスハイライトに挑戦&lt;/h2&gt;
+   <id>http://maehrm.github.io/2014/10/05/syntax</id>
+   <content type="html">&lt;h2 id=&quot;section&quot;&gt;シンタックスハイライト&lt;/h2&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;
@@ -26,7 +26,14 @@
 &lt;h2 id=&quot;gist&quot;&gt;gist&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/5349187.js?file=eigonou.rb&quot;&gt; &lt;/script&gt;
 
-&lt;h1 id=&quot;section-1&quot;&gt;参考&lt;/h1&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;疑問点&lt;/h2&gt;
+&lt;p&gt;シンタックスハイライト用のスタイルシート syntax.css を assets/css/ に置いて、現在は、_includes/themes/bootstrap-3 の default.html で、以下のように読み込んでいるのですが、&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/css/syntax.css&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;例えば、テーマをbootstrap-3から他へ変更した場合は、_includes/themes/XXXX の default.html にまた書くというのは何とも変だなと思うのですが、どのファイルで syntax.css を読み込むのがスマートでしょうか?&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;参考&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://melborne.github.io/2013/05/20/now-the-time-to-start-jekyll/&quot;&gt;Jekyllいつやるの？ジキやルの？今でしょ！&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

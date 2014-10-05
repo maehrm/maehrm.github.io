@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>今日の取り組み</title>
+    <title>シンタックスハイライトなどに取り組んでみる</title>
     <meta name="description" content="">
     <meta name="author" content="Masahide Maehara">
 
@@ -135,7 +135,7 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>今日の取り組み </h1>
+  <h1>シンタックスハイライトなどに取り組んでみる </h1>
 </div>
 
 <div class="row post-full">
@@ -144,7 +144,7 @@
       <span>05 October 2014</span>
     </div>
     <div class="content">
-      <h2 id="section">シンタックスハイライトに挑戦</h2>
+      <h2 id="section">シンタックスハイライト</h2>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">hello</span>
 <span class="lineno">2</span>   <span class="nb">puts</span> <span class="s2">&quot;Hello World!&quot;</span>
@@ -153,7 +153,14 @@
 <h2 id="gist">gist</h2>
 <script src="https://gist.github.com/5349187.js?file=eigonou.rb"> </script>
 
-<h1 id="section-1">参考</h1>
+<h2 id="section-1">疑問点</h2>
+<p>シンタックスハイライト用のスタイルシート syntax.css を assets/css/ に置いて、現在は、_includes/themes/bootstrap-3 の default.html で、以下のように読み込んでいるのですが、</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;/assets/css/syntax.css&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+<p>例えば、テーマをbootstrap-3から他へ変更した場合は、_includes/themes/XXXX の default.html にまた書くというのは何とも変だなと思うのですが、どのファイルで syntax.css を読み込むのがスマートでしょうか?</p>
+
+<h1 id="section-2">参考</h1>
 <ul>
   <li><a href="http://melborne.github.io/2013/05/20/now-the-time-to-start-jekyll/">Jekyllいつやるの？ジキやルの？今でしょ！</a></li>
 </ul>

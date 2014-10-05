@@ -4,6 +4,8 @@ title: Masahide Maehara's Web Page!
 tagline: 
 ---
 {% include JB/setup %}
+## はじめに
+GitHub Pages を利用して、Jekyll + Jekyll Bootstrap の練習を始めてみました。何かおかしな点などありましたら、twitter([@maehrm](https://twitter.com/maehrm))ででもご指摘いただければ幸いです。
 
 ## Posts
 

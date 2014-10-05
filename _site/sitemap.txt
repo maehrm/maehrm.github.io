@@ -9,5 +9,5 @@ http://maehrm.github.io/rss.xml
 http://maehrm.github.io/sitemap.txt
 http://maehrm.github.io/tags.html
 
-http://maehrm.github.io/2014/10/05/hello-world
+http://maehrm.github.io/2014/10/05/syntax
 http://maehrm.github.io/2014/10/04/firstpost

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Masahide Maehara's Web Page!
-tagline: Supporting tagline
+tagline: 
 ---
 {% include JB/setup %}
 

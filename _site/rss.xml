@@ -5,8 +5,8 @@
         <description>Mae向きな日記(GitHub Pages) - Masahide Maehara</description>
         <link>http://maehrm.github.io</link>
         <link>http://maehrm.github.io</link>
-        <lastBuildDate>2014-10-05T11:16:28+09:00</lastBuildDate>
-        <pubDate>2014-10-05T11:16:28+09:00</pubDate>
+        <lastBuildDate>2014-10-05T11:42:40+09:00</lastBuildDate>
+        <pubDate>2014-10-05T11:42:40+09:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -20,6 +20,22 @@
 
 &lt;h2 id=&quot;gist&quot;&gt;gist&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/5349187.js?file=eigonou.rb&quot;&gt; &lt;/script&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;数式&lt;/h2&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+Formular\ from Wikipedia\\
+ 
+\int_0^3 9x^2 + 2x + 4\, dx = 3x^3 + x^2 + 4x + C \Big\rbrack_0^3 = 102\\
+
+e^{x+iy} = e^x(\cos y + i\sin y)\\
+
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+&lt;/script&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;参考&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://melborne.github.io/2013/05/20/now-the-time-to-start-jekyll/&quot;&gt;Jekyllいつやるの？ジキやルの？今でしょ！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
                 <link>http://maehrm.github.io/2014/10/05/hello-world</link>

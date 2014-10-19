@@ -5,8 +5,8 @@
         <description>Mae向きな日記(GitHub Pages) - Masahide Maehara</description>
         <link>http://maehrm.github.io</link>
         <link>http://maehrm.github.io</link>
-        <lastBuildDate>2014-10-05T16:12:10+09:00</lastBuildDate>
-        <pubDate>2014-10-05T16:12:10+09:00</pubDate>
+        <lastBuildDate>2014-10-05T19:09:42+09:00</lastBuildDate>
+        <pubDate>2014-10-05T19:09:42+09:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -22,7 +22,7 @@
 &lt;script src=&quot;https://gist.github.com/5349187.js?file=eigonou.rb&quot;&gt; &lt;/script&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;疑問点&lt;/h2&gt;
-&lt;p&gt;シンタックスハイライト用のスタイルシート syntax.css を assets/css/ に置いて、現在は、_includes/themes/bootstrap-3 の default.html で、以下のように読み込んでいるのですが、&lt;/p&gt;
+&lt;p&gt;シンタックスハイライト用のスタイルシート &lt;code&gt;syntax.css&lt;/code&gt; を assets/css/ に置いて、現在は、_includes/themes/bootstrap-3 の default.html で、以下のように読み込んでいるのですが、&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/css/syntax.css&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
